@@ -1,5 +1,4 @@
 # OTwoAPI
-OTwo API Server
 
 **Development**
 ```console
