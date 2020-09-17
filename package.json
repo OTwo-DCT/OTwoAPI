@@ -4,7 +4,7 @@
   "description": "OTwo API Server",
   "main": "otwo.js",
   "scripts": {
-    "test": "nodemon otwo.ts",
+    "dev": "nodemon otwo.ts",
     "build": "tsc --project ./"
   },
   "repository": {
