@@ -2,9 +2,9 @@
   "name": "otwoapi",
   "version": "1.0.0",
   "description": "OTwo API Server",
-  "main": "otwo.js",
+  "main": "src/otwo.ts",
   "scripts": {
-    "dev": "nodemon otwo.ts",
+    "dev": "nodemon",
     "build": "tsc --project ./"
   },
   "repository": {
@@ -23,8 +23,15 @@
   },
   "homepage": "https://github.com/sumanmitra97/OTwoAPI#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9",
+    "mongose": "0.0.2-security",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2",
+    "validator": "^13.1.17"
   },
   "devDependencies": {
     "@types/express": "^4.17.8",
