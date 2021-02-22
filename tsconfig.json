@@ -1,11 +1,14 @@
 {
-    "compilerOptions": {
-        "target": "es6",
-        // "module": "commonjs",
-        "outDir": "build",
-        "sourceMap": true,
-        "esModuleInterop": true,
-        "moduleResolution": "node",
-        "strict": true
-    }
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "strict": true,
+    "target": "es6",
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
 }
