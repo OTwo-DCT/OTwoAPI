@@ -1,10 +1,13 @@
 # OTwoAPI
 
 **Start**
+
 ```console
 foo@bar:~/OTwoAPI$ npm run start
 ```
-**Build**
+
+**Compile**
+
 ```console
-foo@bar:~/OTwoAPI$ npm run build
+foo@bar:~/OTwoAPI$ npm run compile
 ```
