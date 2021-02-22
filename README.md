@@ -11,3 +11,8 @@ foo@bar:~/OTwoAPI$ npm run start
 ```console
 foo@bar:~/OTwoAPI$ npm run compile
 ```
+
+**Docker**
+```console
+foo@bar:~/OTwoAPI$ npm run compile
+```
