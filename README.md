@@ -1,8 +1,8 @@
 # OTwoAPI
 
-**Development**
+**Start**
 ```console
-foo@bar:~/OTwoAPI$ npm run dev
+foo@bar:~/OTwoAPI$ npm run start
 ```
 **Build**
 ```console
