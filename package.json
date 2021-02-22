@@ -15,18 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sumanmitra97/OTwoAPI.git"
+    "url": "https://github.com/OTwo-DCT/OTwoAPI"
   },
   "keywords": [
     "node",
     "express"
   ],
-  "author": "Suman Mitra",
+  "contributors": [
+    "Suman Mitra <suman@sumanmitra.in>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sumanmitra97/OTwoAPI/issues"
+    "url": "https://github.com/OTwo-DCT/OTwoAPI/issues"
   },
-  "homepage": "https://github.com/sumanmitra97/OTwoAPI#readme",
+  "homepage": "https://github.com/OTwo-DCT/OTwoAPI#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
