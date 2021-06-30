@@ -3,7 +3,7 @@
 # Licensed under the MIT License. See LICENSE in the project root for license information.
 # -----------------------------------------------------------------------------------------
 
-from flask import Flask
+from flask import Flask, request
 app = Flask(__name__)
 
 
@@ -12,6 +12,7 @@ def hello():
     return app.send_static_file("index.html")
 
 
-@app.route("/vids")
+@app.route("/vids", methods=['POST'])
 def vids():
-    return {"data": {"vids": ["11aa", "22bb", "33cc", "44dd"]}}
+    print(request.json)
+    return {"data": {"vids": ["1111aaaa", "2222bbbb", "3333cccc", "4444dddd"]}}

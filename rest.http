@@ -1,0 +1,9 @@
+@url = http://localhost:5000
+
+
+POST {{url}}/vids
+Content-Type: application/json
+
+{
+    "phone_number": "9830679589"
+}
