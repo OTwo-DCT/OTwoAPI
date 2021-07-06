@@ -1,6 +1,5 @@
 from datetime import datetime
 from flask import Response
-from mongoengine import QuerySet
 from ..helpers import random
 from main import config
 from ..entity import user
