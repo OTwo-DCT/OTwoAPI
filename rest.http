@@ -1,7 +1,7 @@
 @url = http://localhost:5000
 
 
-POST {{url}}/vids
+POST {{url}}/requestVirtualID
 Content-Type: application/json
 
 {
