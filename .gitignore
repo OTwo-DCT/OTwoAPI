@@ -335,3 +335,5 @@ venv/
 
 .env
 .dccache
+
+.vscode/
