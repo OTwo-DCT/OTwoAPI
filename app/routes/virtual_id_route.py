@@ -1,4 +1,4 @@
-from flask import request, Response
+from flask import request, Response, escape
 from . import routes
 from ..service.virtual_id_service import generateVirtualID
 
@@ -10,5 +10,5 @@ def requestVirtualID() -> dict:
     req: dict = request.json
     if 'phone_number' not in req:
         return Response('Required field missing', status=422)
-    phone_number = req.get('phone_number')
+    phone_number = escape(req.get('phone_number'))
     return generateVirtualID(phone_number)
